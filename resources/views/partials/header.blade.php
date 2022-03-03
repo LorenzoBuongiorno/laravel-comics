@@ -1,16 +1,16 @@
 <div class="header-container">
     <div class="logo">
-        <img src="img/dc-logo.png" alt="">
+        <a href="{{route('home')}}"><img src="img/dc-logo.png" alt=""></a>
     </div>
     <ul>
         <li>
-            <a href="{{url('')}}">characters</a>
+            <a href="{{route('characters')}}">characters</a>
         </li>
         <li>
-            <a href="{{url('')}}">comics</a>
+            <a href="{{route('comics')}}">comics</a>
         </li>
         <li>
-            <a href="{{url('')}}">movies</a>
+            <a href="{{route('movies')}}">movies</a>
         </li>
         <li>
             <a href="{{url('')}}">tv</a>
