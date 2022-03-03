@@ -4,31 +4,31 @@
     </div>
     <ul>
         <li>
-            <a href="{{url('/')}}">characters</a>
+            <a href="{{url('')}}">characters</a>
         </li>
         <li>
-            <a href="{{url('/')}}">comics</a>
+            <a href="{{url('')}}">comics</a>
         </li>
         <li>
-            <a href="{{url('/')}}">movies</a>
+            <a href="{{url('')}}">movies</a>
         </li>
         <li>
-            <a href="{{url('/')}}">tv</a>
+            <a href="{{url('')}}">tv</a>
         </li>
         <li>
-            <a href="{{url('/')}}">games</a>
+            <a href="{{url('')}}">games</a>
         </li>
         <li>
-            <a href="{{url('/')}}">videos</a>
+            <a href="{{url('')}}">videos</a>
         </li>
         <li>
-            <a href="{{url('/')}}">fans</a>
+            <a href="{{url('')}}">fans</a>
         </li>
         <li>
-            <a href="{{url('/')}}">news</a>
+            <a href="{{url('')}}">news</a>
         </li>
         <li>
-            <a href="{{url('/')}}">shop</a>
+            <a href="{{url('')}}">shop</a>
         </li>
         <li>
             <input type="text" placeholder="Search">

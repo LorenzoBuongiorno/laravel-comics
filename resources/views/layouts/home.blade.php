@@ -13,7 +13,7 @@
     </header>
     <div class="background"></div>
     <main>
-
+        @include('partials.main')
     </main>
     <footer>
         @include('partials.footer')

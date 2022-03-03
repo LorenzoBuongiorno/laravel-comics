@@ -201,6 +201,70 @@ footer .footer-bottom .row .social-links span {
   font-weight: bold;
 }
 
+main {
+  background-color: #222;
+  position: relative;
+}
+
+main .label {
+  position: absolute;
+  top: -20px;
+  left: 200px;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #0282f9;
+  text-transform: uppercase;
+}
+
+main ul {
+  padding: 50px;
+  width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main ul li {
+  padding: 10px;
+  width: 16.6666666667%;
+}
+
+main ul li .picture {
+  height: 220px;
+}
+
+main ul li .picture img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+main ul li .name-series {
+  margin-top: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+main .load-more {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+main .load-more a {
+  padding: 15px 80px;
+  background-color: #0282f9;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
