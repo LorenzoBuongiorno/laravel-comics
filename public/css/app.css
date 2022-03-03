@@ -68,6 +68,139 @@ header .header-container ul li button {
   cursor: pointer;
 }
 
+.background {
+  height: 50vh;
+  background: url("/img/jumbotron.jpg");
+  background-size: cover;
+}
+
+footer {
+  background: url("/img/footer-bg.jpg");
+  background-size: cover;
+}
+
+footer .footer-links {
+  width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+footer .footer-links .row {
+  margin-top: 30px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer .footer-links .row div {
+  padding: 15px;
+}
+
+footer .footer-links .row div h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+footer .footer-links .row div ul {
+  margin-top: 10px;
+}
+
+footer .footer-links .row div ul li {
+  line-height: 25px;
+}
+
+footer .footer-links .row div ul li a {
+  color: #999;
+}
+
+footer .footer-links .dc-logo-bg {
+  width: 700px;
+  position: relative;
+}
+
+footer .footer-links .dc-logo-bg img {
+  position: absolute;
+  top: -100px;
+  width: 100%;
+  display: block;
+}
+
+footer .buy-bar {
+  background-color: #0282f9;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .buy-bar ul {
+  display: flex;
+  justify-content: space-around;
+  width: 1500px;
+  padding: 15px;
+}
+
+footer .buy-bar ul li {
+  display: flex;
+  align-items: center;
+}
+
+footer .buy-bar ul li a {
+  display: flex;
+  align-items: center;
+}
+
+footer .buy-bar ul li a .footer-buy-image {
+  width: 90px;
+  padding: 10px;
+}
+
+footer .buy-bar ul li a .footer-buy-image img {
+  width: 100%;
+}
+
+footer .buy-bar ul li a span {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+footer .footer-bottom {
+  background-color: #333;
+  padding: 50px;
+}
+
+footer .footer-bottom .row {
+  margin: 0 auto;
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-bottom .row .follow-box a {
+  height: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  border: 4px solid #0282f9;
+}
+
+footer .footer-bottom .row .social-links {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer-bottom .row .social-links span {
+  text-transform: uppercase;
+  color: #0282f9;
+  font-weight: bold;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

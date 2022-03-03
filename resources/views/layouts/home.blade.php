@@ -11,11 +11,12 @@
     <header>
         @include('partials.header')
     </header>
+    <div class="background"></div>
     <main>
 
     </main>
     <footer>
-
+        @include('partials.footer')
     </footer>
 </body>
 </html>
