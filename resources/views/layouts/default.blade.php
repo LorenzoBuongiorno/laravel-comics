@@ -13,7 +13,7 @@
     </header>
     <div class="background"></div>
     <main>
-        @include('partials.main')
+        @yield("content")
     </main>
     <footer>
         @include('partials.footer')
