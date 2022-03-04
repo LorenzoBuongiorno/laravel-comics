@@ -5,7 +5,7 @@
         <ul>
             @foreach ($data as $value)
                 <li>
-                    <a href="{{url('')}}">
+                    <a href="{{ route('details' , ['id' => $loop->index]) }}">
                         <div class="picture">
                             <img src="{{$value['thumb']}}" alt="">
                         </div>

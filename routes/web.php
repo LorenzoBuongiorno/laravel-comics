@@ -18,6 +18,15 @@ Route::get('/', function () {
     return view('main', compact("data"));
 })->name("home");
 
+Route::get('/current/{id}', function ($id) {
+    $data = config('comics');
+    if(!is_numeric($id) || (int) $id >= count($data)) {
+        abort('404');
+    }
+    $comics = $data[$id];
+    return view('dettagli', compact("comics"));
+})->name("details");
+
 Route::get('/characters', function () {
     return view('characters');
 })->name("characters");
